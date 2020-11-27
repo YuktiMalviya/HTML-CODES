@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<style>
+			#outer
+				{
+					height:1000px;
+					width:800px;
+					border:1px solid;
+				}
+			#header
+				{
+					height:200px;
+					width:800px;
+					background-color:red;
+				}
+			#lside
+				{
+					height:700px;
+					width:600px;
+					background-color:yellow;
+					float:left;
+				}
+			#rside
+				{
+					height:700px;
+					width:200px;
+					background-color:green;
+					float:right;
+				}
+			#parent
+				{
+					height:700px;
+					width:800px;
+					//background-color:blue;
+				}
+			#footer
+				{
+					height:100px;
+					width:800px;
+					background-color:black
+				}
+		</style>
+	</head>
+	<body>
+		
+		<div id="outer">
+			
+			<div id="header"></div>
+			
+			<div id="parent">
+				<div id="lside"></div>
+				<div id="rside"></div>
+			</div>
+			<div id="footer"></div>
+		
+		
+		</div>
+	
+	</body>
+</html>

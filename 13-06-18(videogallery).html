@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<style>
+			#outer
+			{
+				height:500px;
+				width:900px;
+				background-color:blue;
+			}
+			#left
+			{
+				height:496px;
+				width:184px;
+				margin-right:10px;
+				border:2px solid black;
+				background-color:yellow;
+				float:left;
+				overflow:hidden;
+			}
+			#right
+			{
+				height:400px;
+				width:700px;
+				//border:2px solid black;
+				background-color:yellow;
+				float:left;
+				margin-top:50px;
+			}
+			#lefttop
+			{
+				height:50px;
+				width:200px;
+				background-color:white;
+				overflow:hidden;
+			}
+			#leftbbottom
+			{
+				height:450px;
+				width:200px;
+				overflow:hidden;
+				background-color:white;
+			}
+			#video
+			{
+				color:white;
+				font-size:40px;
+				display:inline;
+				margin-left:10px;
+			}
+			#gallery
+			{
+				color:white;
+				display:inline;
+			}
+			.options
+			{
+				margin-left:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="outer">
+			<div id="left">
+				<div id="lefttop">
+					<p id="video">Video</p>
+					<p id="gallery">Gallery</p>
+				</div>
+				<div id="leftbbottom">
+					<p class="options">Home</p>
+					<p class="options">Trending</p>
+					<p class="options">Subscription</p>
+					<p class="options">History</p>
+					<p class="options">Liked Videos</p>
+				</div>
+			</div>
+			<div id="right"></div>
+		</div>
+	</body>
+</html>
